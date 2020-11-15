@@ -1,0 +1,6 @@
+# ENHANCING KUBERNETES RESILIENCY WITH CLOUD NATIVE CHAOS ENGINEERING
+
+- Webinar on 13/11/2020
+- [Youtube Video link](https://youtu.be/s-8HwXMdeMk)
+
+
