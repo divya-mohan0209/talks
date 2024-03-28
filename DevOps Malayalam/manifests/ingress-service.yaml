@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hello-spin
+spec:
+  type: ClusterIP
+  selector:
+    app: hello-spin
+  ports:
+  - port: 80
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: hello-spin
+  annotations:
+    traefik.ingress.kubernetes.io/router.entrypoints: web
+spec:
+  rules:
+  - host: localhost
+    http:
+      paths:
+        - path: /
+          pathType: Prefix
+          backend:
+            service:
+              name: hello-spin
+              port:
+                number: 80
