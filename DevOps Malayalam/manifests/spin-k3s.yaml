@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-spin
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hello-spin
+  template:
+    metadata:
+      labels:
+        app: hello-spin
+    spec:
+      runtimeClassName: spin
+      containers:
+      - name: hello-spin
+        image: ghcr.io/deislabs/containerd-wasm-shims/examples/spin-rust-hello:v0.11.1
+        command: ["/"]
