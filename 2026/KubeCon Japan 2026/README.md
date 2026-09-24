@@ -1,0 +1,3 @@
+- Title: {Project Lightning Talk} Longhorn: What's New & What's Next for Cloud Native Persistent Storage
+- Delivered on: July 29, 2026
+- YouTube link: https://youtu.be/oM9MckdZqkk?si=v-wjxDA6If6mWHLd
