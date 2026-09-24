@@ -1,0 +1,3 @@
+- Title: Getting Up To Date With Docsy: The Kubernetes Docs upgrade in progress
+- Delivered on: November 12, 2025
+- YouTube link: https://youtu.be/lOQBleJBMdY?si=TMbKv8GBVm-K31VV
