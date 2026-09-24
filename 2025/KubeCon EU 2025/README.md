@@ -1,0 +1,3 @@
+- Title: Bridge the gap to OSS adoption with documentation: A Kubernetes story
+- Delivered on: April 14, 2025
+- YouTube link: https://youtu.be/Q40yLLLIW9Q?si=4qivjUK4pMYR7rgD
